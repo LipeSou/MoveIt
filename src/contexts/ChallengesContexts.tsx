@@ -27,7 +27,7 @@ interface ChallengesProviderProps {
     children: ReactNode;
     level: number;
     currentExperience: number;
-    challengeCompleted: number;
+    challengesCompleted: number;
 }
 
 
@@ -40,7 +40,7 @@ export function ChallengesProvider({
 }: ChallengesProviderProps) {
     const [level, setLevel] = useState(rest.level ?? 1);
     const [currentExperience, setCurrentExperience] = useState(rest.currentExperience ?? 0);
-    const [challengesCompleted, setChallengesCompleted] = useState(rest.challengeCompleted ?? 0);
+    const [challengesCompleted, setChallengesCompleted] = useState(rest.challengesCompleted ?? 0);
 
     const [activeChallenge, setActiveChallenge] = useState(null);
     const [isLevelModalOpen, setIslevelModalOpen] = useState(false);

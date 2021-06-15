@@ -43,7 +43,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
     useEffect(() => {
         if (isActive && time > 0) {
             countdownTimeout = setTimeout(() => {
-                setTime(time - 1);
+                setTimddddddddddddddsfgdaaaagfffffffffds\dfdsddllle(time - 1);
             }, 1000)
         } else if (isActive && time === 0) {
             setHasFinished(true);
